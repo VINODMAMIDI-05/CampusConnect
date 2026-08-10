@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | CampusConnect</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="../index.html"><span class="brand-mark">CC</span><span>CampusConnect</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="../index.html">Home</a>
+        <a class="active" href="events.html">Events</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">DISCOVER</span>
+        <h1>Campus Events</h1>
+        <p>Find workshops, hackathons, cultural activities, seminars and more.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="toolbar">
+        <input class="field" type="search" data-search placeholder="Search events...">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="technology">Technology</button>
+        <button class="filter-btn" data-filter="workshop">Workshop</button>
+        <button class="filter-btn" data-filter="cultural">Cultural</button>
+      </div>
+
+      <div class="card-grid">
+        <article class="event-card" data-item data-category="technology">
+          <div class="card-banner banner-one">💻</div>
+          <div class="card-body">
+            <span class="tag">TECHNOLOGY</span>
+            <h3>Campus Hackathon</h3>
+            <p>Build useful solutions with your team in a one-day coding challenge.</p>
+            <div class="event-meta"><span>📅 Aug 24</span><span>📍 Lab 2</span></div>
+          </div>
+        </article>
+
+        <article class="event-card" data-item data-category="workshop">
+          <div class="card-banner banner-two">🎤</div>
+          <div class="card-body">
+            <span class="tag">WORKSHOP</span>
+            <h3>Career &amp; Skills Workshop</h3>
+            <p>Learn practical skills for resumes, interviews and portfolios.</p>
+            <div class="event-meta"><span>📅 Aug 28</span><span>📍 Seminar Hall</span></div>
+          </div>
+        </article>
+
+        <article class="event-card" data-item data-category="cultural">
+          <div class="card-banner banner-three">🎨</div>
+          <div class="card-body">
+            <span class="tag">CULTURAL</span>
+            <h3>Student Cultural Fest</h3>
+            <p>Celebrate creativity, music, art, food and student talent.</p>
+            <div class="event-meta"><span>📅 Sep 03</span><span>📍 Open Ground</span></div>
+          </div>
+        </article>
+
+        <article class="event-card" data-item data-category="technology">
+          <div class="card-banner banner-one">🤖</div>
+          <div class="card-body">
+            <span class="tag">TECHNOLOGY</span>
+            <h3>AI Community Meetup</h3>
+            <p>Discuss AI projects, tools and ideas with fellow students.</p>
+            <div class="event-meta"><span>📅 Sep 08</span><span>📍 Innovation Lab</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container copyright">© <span id="currentYear"></span> CampusConnect Contributors.</div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Announcements | CampusConnect</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="../index.html"><span class="brand-mark">CC</span><span>CampusConnect</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="../index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a class="active" href="announcements.html">Announcements</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">STAY INFORMED</span>
+        <h1>Announcements</h1>
+        <p>Important updates and opportunities for the student community.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="toolbar">
+        <input class="field" type="search" data-search placeholder="Search announcements...">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="academic">Academic</button>
+        <button class="filter-btn" data-filter="opportunity">Opportunity</button>
+        <button class="filter-btn" data-filter="workshop">Workshop</button>
+      </div>
+
+      <div class="announcement-list">
+        <article class="announcement" data-item data-category="academic">
+          <span class="announcement-icon">📢</span>
+          <div><span class="tag">ACADEMIC</span><h3>Semester registration is now open</h3><p>Students can complete their registration before the published deadline.</p></div>
+          <time>Aug 10</time>
+        </article>
+
+        <article class="announcement" data-item data-category="opportunity">
+          <span class="announcement-icon">🏆</span>
+          <div><span class="tag">OPPORTUNITY</span><h3>Hackathon registrations are open</h3><p>Form your team and register for the upcoming campus hackathon.</p></div>
+          <time>Aug 08</time>
+        </article>
+
+        <article class="announcement" data-item data-category="workshop">
+          <span class="announcement-icon">📚</span>
+          <div><span class="tag">WORKSHOP</span><h3>Git &amp; GitHub hands-on session</h3><p>Bring your laptop and learn collaborative development through practice.</p></div>
+          <time>Aug 06</time>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container copyright">© <span id="currentYear"></span> CampusConnect Contributors.</div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>
