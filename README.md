@@ -5,6 +5,7 @@ A small student community website built with **HTML, CSS and Vanilla JavaScript*
 This project is intentionally designed as a hands-on **Git + GitHub collaboration project**.
 
 ## Features
+a
 
 - Responsive student community website
 - Events page
