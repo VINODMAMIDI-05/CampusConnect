@@ -26,18 +26,23 @@ If you contribute to CampusConnect, add your name to the Contributors section.
 - MAMIDI VINOD — Owner & Project Lead
 - [MAMIDI VINOD](https://github.com/VINODMAMIDI-05)
 
+- PATTI ANIL REDDY — Contributor
+- [PATTI ANIL REDDY](https://github.com/Anil-reddy-1/CampusConnect)
+
 ### How to add your name
 
 Replace:
 
-```md
+````md
 [Your Name](https://github.com/your-github-username)
+
 ### 1. Clone the repository
 
 ```bash
 git clone <repository-url>
 cd CampusConnect
 ```
+````
 
 ### 2. Check the current state
 
@@ -71,6 +76,7 @@ Edit the required HTML, CSS or JavaScript files.
 ### 5. Test your changes
 
 Check:
+
 - Desktop layout
 - Mobile layout
 - Navigation
@@ -104,6 +110,7 @@ Open the GitHub repository and create a Pull Request from your branch to `main`.
 ### 10. Review
 
 A maintainer may:
+
 - Approve your PR
 - Ask for changes
 - Comment on the code
