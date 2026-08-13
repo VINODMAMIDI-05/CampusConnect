@@ -32,6 +32,9 @@ If you contribute to CampusConnect, add your name to the Contributors section.
 - VachepalliDevishReddy -Contributor
 -[VachepalliDevishReddy](https://github.com/VachepalliDevishReddy/CampusConnect.git)
 
+- ALETI SRISHANTH REDDY — Contributor
+- [ALETI SRISHANTH REDDY](https://github.com/srishanthreddy2006/CampusConnect.git)
+
 
 ### How to add your name
 
