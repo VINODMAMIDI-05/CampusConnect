@@ -29,6 +29,10 @@ If you contribute to CampusConnect, add your name to the Contributors section.
 - PATTI ANIL REDDY — Contributor
 - [PATTI ANIL REDDY](https://github.com/Anil-reddy-1/CampusConnect)
 
+- VachepalliDevishReddy -Contributor
+-[VachepalliDevishReddy](https://github.com/VachepalliDevishReddy/CampusConnect.git)
+
+
 ### How to add your name
 
 Replace:
