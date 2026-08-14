@@ -32,6 +32,9 @@ If you contribute to CampusConnect, add your name to the Contributors section.
 - VachepalliDevishReddy -Contributor
 -[VachepalliDevishReddy](https://github.com/VachepalliDevishReddy/CampusConnect.git)
 
+- TRILOK REDDY BADDAM -Contributor
+- [Trilok Reddy Baddam](https://github.com/TrilokReddy33/CampusConnect.git)
+
 
 ### How to add your name
 
