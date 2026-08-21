@@ -34,9 +34,12 @@ If you contribute to CampusConnect, add your name to the Contributors section.
 
 - TRILOK REDDY BADDAM -Contributor
 - [Trilok Reddy Baddam](https://github.com/TrilokReddy33/CampusConnect.git)
+
 - MAREEDU JASWANTH VENKATA SAI -Contributor
 - [MAREEDU JASWANTH VENKATA SAI](https://github.com/jaswanth02sai/CampusConnect.git)
 
+- RAMAVATH RAKESH — Owner & Project Lead
+- [RAMAVATH RAKESH](https://github.com/ramavathrakesh87-lgtm/CampusConnect.git)
 
 ### How to add your name
 
